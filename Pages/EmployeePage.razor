@@ -5,8 +5,7 @@
     <thead>
         <tr>
             <th>Employee Id</th>
-            <th>Employee Fistname</th>
-            <th>Employee LastName</th>
+            <th>Name</th>
             <th></th>
         </tr>
     </thead>
@@ -15,8 +14,7 @@
         {
             <tr>
                 <td>@empl.EmployeeId</td>
-                <td>@empl.FirstName</td>
-                <td>@empl.LastName</td>
+                <td>@empl.FirstName @empl.LastName</td>
                 <td><a href="@($" employeedetail/{empl.EmployeeId}")" class="btn btn-primary">detail</a></td>
             </tr>
         }
