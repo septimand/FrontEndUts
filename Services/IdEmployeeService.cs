@@ -10,5 +10,8 @@ namespace FrontEndUts.Services
     {
         Task<IEnumerable<Employee>> GetAll();
         Task<Employee> GetById(int id);
+        Task<Employee> Add(Employee Employee);
+        Task<Employee> Update(int id, Employee Employee);
+        Task Delete(int id);
     }
 }

@@ -9,8 +9,9 @@
 {
 <div class="card-deck">
     <div class="col-3"></div>
-        <div class="card m-3 col-8" style="min-width: 10rem; max-width: 48%;">
-            <img class="card-img-top img-thumbnail" src="@Employee.PhotoPath" />
+        <div class="card m-3 col-8 " style="min-width: 10rem; max-width: 48%;">
+            <img class="card-img-top" src="@Employee.PhotoPath" @onmousemove="@Mouse_Move"/>
+            <h4 class="text-center">@Coordinates</h4>
             <div class="card-footer">
                 <div class="card-header">
                     <h3 class="text-center">@Employee.FirstName @Employee.LastName</h3>
@@ -32,6 +33,12 @@
                 <div class="col-6"> : @Employee.DepartmentId</div>
                 <div class="col-6"> DepartmentName </div>
                 <div class="col-6"> : @Employee.Department.DepartmentName</div>
+                </div><br>
+                <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
+                <div class="card-footer text-center @CssClass">
+                    <a href="/employeepageImg" class="btn btn-primary m-1">Back</a>
+                    <a href="#" class="btn btn-warning m-1">Edit</a>
+                    <a href="#" class="btn btn-danger m-1">Delete</a>
                 </div>
             </div>
         </div>

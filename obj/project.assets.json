@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\FrontEndUts.csproj",
+      "projectUniqueName": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj",
       "projectName": "FrontEndUts",
-      "projectPath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\FrontEndUts.csproj",
+      "projectPath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj",
       "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
-      "outputPath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\obj\\",
+      "outputPath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\FrontEndUts.csproj",
+  "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -143,6 +143,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FrontEndUts.Pages.DetailEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -500211281,
+        "Kind": "Components.Component",
+        "Name": "FrontEndUts.Pages.DetailEmployeeImg",
+        "AssemblyName": "FrontEndUts",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DetailEmployeeImg"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FrontEndUts.Pages.DetailEmployeeImg"
+        }
+      },
+      {
+        "HashCode": 1240695677,
+        "Kind": "Components.Component",
+        "Name": "FrontEndUts.Pages.DetailEmployeeImg",
+        "AssemblyName": "FrontEndUts",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FrontEndUts.Pages.DetailEmployeeImg"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FrontEndUts.Pages.DetailEmployeeImg",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13214,73 +13267,73 @@
   "RootNamespace": "FrontEndUts",
   "Documents": [
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\EmployeePageImg.razor",
-      "TargetPath": "Pages\\EmployeePageImg.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\DetailEmployee.razor",
-      "TargetPath": "Pages\\DetailEmployee.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\App.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\DetailDepartment.razor",
-      "TargetPath": "Pages\\DetailDepartment.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\Index.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\_Imports.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\DetailEmployeeImg.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\EmployeePageImg.razor",
+      "TargetPath": "Pages\\EmployeePageImg.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\DepartmentPage.razor",
+      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\DetailEmployeeImg.razor",
       "TargetPath": "Pages\\DetailEmployeeImg.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\EmployeePage.razor",
-      "TargetPath": "Pages\\EmployeePage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Shared\\MainLayout.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_4\\FrontEndUts\\Pages\\DepartmentPage.razor",
-      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\DetailDepartment.razor",
+      "TargetPath": "Pages\\DetailDepartment.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\DetailEmployee.razor",
+      "TargetPath": "Pages\\DetailEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\EmployeePage.razor",
+      "TargetPath": "Pages\\EmployeePage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     }
   ],
