@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json;
 using System.Threading.Tasks;
 using FrontEndUts.Models;
 
@@ -37,9 +38,15 @@ namespace FrontEndUts.Services
             return hasil;
         }
 
-        public Task<Employee> Update(int id, Employee Employee)
+        public async Task<Employee> Update(int id, Employee Employee)
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.PutAsJsonAsync($"api/Employees/{id}", Employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }
+            else {
+                throw new Exception("Gagal update Employee");
+            }
         }
     }
 }

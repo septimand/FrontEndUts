@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj": {}
+    "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\FrontEndUts.csproj": {}
   },
   "projects": {
-    "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj": {
+    "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\FrontEndUts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj",
+        "projectUniqueName": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\FrontEndUts.csproj",
         "projectName": "FrontEndUts",
-        "projectPath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\FrontEndUts.csproj",
+        "projectPath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\FrontEndUts.csproj",
         "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
-        "outputPath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_5\\FrontEndUts\\obj\\",
+        "outputPath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config"
