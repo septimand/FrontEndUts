@@ -16,11 +16,7 @@ namespace FrontEndUts.Services
         {
            _httpClient = httpClient;
         }
-        public Task<Employee> Add(Employee Employee)
-        {
-            throw new NotImplementedException();
-        }
-
+       
         public Task Delete(int id)
         {
             throw new NotImplementedException();
@@ -46,6 +42,16 @@ namespace FrontEndUts.Services
             }
             else {
                 throw new Exception("Gagal update Employee");
+            }
+        }
+
+        public async Task<Employee> Add(Employee obj){
+            var response = await _httpClient.PostAsJsonAsync($"api/Employees", obj);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }
+            else{
+                throw new Exception("gagal tambah data employee");
             }
         }
     }

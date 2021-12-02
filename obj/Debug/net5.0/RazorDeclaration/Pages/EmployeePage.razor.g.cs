@@ -13,70 +13,70 @@ namespace FrontEndUts.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 1 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 2 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 3 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 4 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 5 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 6 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 7 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 8 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 9 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using FrontEndUts;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\tugas\semester 5\Pemrograman Frontend\tugas_6\FrontEndUts\_Imports.razor"
+#line 10 "D:\tugas\semester 5\Pemrograman Frontend\tugas_7\FrontEndUts\_Imports.razor"
 using FrontEndUts.Shared;
 
 #line default

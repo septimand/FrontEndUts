@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RoESMT5Zq+5CsHM93bXly5UftX7P/uyDOcWi8i9Q8IU28PxmlknEchrQEmNZcL7g10XP3heZf4YXyYU8688aYQ==",
+  "dgSpecHash": "A+pslLvO5iWt06HzHb6qrV8eVful01aXnnZjCd/siQH03DmshrsLtCytVeqOxMdDioBzWKn9ThLJLujhos31xg==",
   "success": true,
-  "projectFilePath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_6\\FrontEndUts\\FrontEndUts.csproj",
+  "projectFilePath": "D:\\tugas\\semester 5\\Pemrograman Frontend\\tugas_7\\FrontEndUts\\FrontEndUts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Me\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
     "C:\\Users\\Me\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.9\\microsoft.aspnetcore.components.5.0.9.nupkg.sha512",

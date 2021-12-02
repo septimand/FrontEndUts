@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace FrontEndUts.Pages
 {
-    public partial class EditEmployee
+    public partial class AddEmployee
     {
         public Employee Employee { get; set; } = new Employee();
 
@@ -29,15 +29,13 @@ namespace FrontEndUts.Pages
         
         protected async override Task OnInitializedAsync()
         {
-            Employee = await EmployeeService.GetById(int.Parse(Id));
             Departments = (await DepartmentService.GetAll()).ToList();
         }
 
         protected async Task HandleValidSubmit(){
             Employee.PhotoPath ="images/nophoto.jpg";
-            var result = await EmployeeService.Update(int.Parse(Id),Employee);
+            var result = await EmployeeService.Add(Employee);
             NavigationManager.NavigateTo("employeepageImg");
         }
-
     }
 }
